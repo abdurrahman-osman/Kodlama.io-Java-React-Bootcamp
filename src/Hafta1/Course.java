@@ -1,4 +1,6 @@
-package MainPackage;
+package Hafta1;
+
+
 
 public class Course {
     int id;
