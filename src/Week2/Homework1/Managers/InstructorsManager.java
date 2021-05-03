@@ -1,8 +1,8 @@
-package Hafta2.Managers;
+package Week2.Homework1.Managers;
 
-import Hafta2.Models.Instructor;
+import Week2.Homework1.Models.Instructor;
 
-public class InstractorManager extends UserManager{
+public class InstructorsManager extends UserManager{
     public void postCourse(Instructor instructor){
         System.out.println(instructor.getName() + " posted a new course");
     }

@@ -1,4 +1,4 @@
-package Hafta2.Models;
+package Week2.Homework1.Models;
 
 import java.util.Date;
 

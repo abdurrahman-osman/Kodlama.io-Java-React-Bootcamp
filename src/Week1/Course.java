@@ -1,4 +1,4 @@
-package Hafta1;
+package Week1;
 
 
 

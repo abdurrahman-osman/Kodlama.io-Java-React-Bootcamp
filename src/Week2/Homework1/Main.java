@@ -1,9 +1,11 @@
-package Hafta2;
+package Week2.Homework1;
 
 
 
-import Hafta2.Models.*;
-import Hafta2.Managers.*;
+import Week2.Homework1.Managers.InstructorsManager;
+import Week2.Homework1.Managers.StudentManager;
+import Week2.Homework1.Models.Instructor;
+import Week2.Homework1.Models.Student;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class Main {
         Student student = new Student(2,"mehmet","mehmet@mail.com","Mop1233","1112",2);
 
         StudentManager studentManager = new StudentManager();
-        InstractorManager instructorManager = new InstractorManager();
+        InstructorsManager instructorManager = new InstructorsManager();
 
         instructorManager.register(instructor);
         instructorManager.login(instructor);
