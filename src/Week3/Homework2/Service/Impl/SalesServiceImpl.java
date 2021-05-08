@@ -12,15 +12,12 @@ public class SalesServiceImpl implements SaleService {
 
     @Override
     public void buy(Game game, User user) {
-        if (user.isVerified())
         System.out.println("Buyer : "+user.getName()+" "+user.getLastName()+"  Price: "+game.getPrice());
-        else System.out.println("Error! user unverified");
     }
 
     @Override
     public void buy(Game game, User user, Campaign campaign) {
-        if (user.isVerified())
         System.out.println("Buyer: "+user.getName() + " "+user.getLastName()+" Original Price: "+game.getPrice()+ " Discounted price:"+campaignService.getPriceAfterDiscount(campaign,game));
-        else System.out.println("Error! user unverified");
+
     }
 }

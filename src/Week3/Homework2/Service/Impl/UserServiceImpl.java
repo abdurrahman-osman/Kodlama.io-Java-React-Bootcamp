@@ -9,10 +9,11 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void add(User user) {
-        if (userCheckService.checkIfRealPerson(user))
-            user.setVerified(true);
-        else user.setVerified(false);
-        System.out.println("Added new user:  "+user.getName());
+        if (userCheckService.checkIfRealPerson(user)){
+            System.out.println("Added new user:  "+user.getName());
+        }
+        else System.out.println("User is unverified");
+
 
     }
 
