@@ -1,6 +1,6 @@
-package Week2.Homework1.Managers;
+package Week2.Managers;
 
-import Week2.Homework1.Models.Instructor;
+import Week2.Models.Instructor;
 
 public class InstructorsManager extends UserManager{
     public void postCourse(Instructor instructor){

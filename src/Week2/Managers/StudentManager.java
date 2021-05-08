@@ -1,6 +1,6 @@
-package Week2.Homework1.Managers;
+package Week2.Managers;
 
-import Week2.Homework1.Models.User;
+import Week2.Models.User;
 
 public class StudentManager extends UserManager{
     public void enrollCourse(User user){

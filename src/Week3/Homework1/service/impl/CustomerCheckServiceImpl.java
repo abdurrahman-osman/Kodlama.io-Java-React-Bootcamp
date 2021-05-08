@@ -6,13 +6,13 @@ import Week3.Homework1.service.CustomerCheckService;
 
 
 public class CustomerCheckServiceImpl implements CustomerCheckService {
-    private HNSKPSPublicSoap ibskpsPublicSoap = new HNSKPSPublicSoap();
+    private HNSKPSPublicSoap kpsPublicSoap = new HNSKPSPublicSoap();
 
     @Override
     public boolean checkIfRealPerson(Customer customer) {
 
         try {
-            return ibskpsPublicSoap.TCKimlikNoDogrula(customer.getTc(), customer.getFirstName().toUpperCase(),
+            return kpsPublicSoap.TCKimlikNoDogrula(customer.getTc(), customer.getFirstName().toUpperCase(),
                     customer.getLastName().toUpperCase(), customer.getBirth().getYear());
 
         } catch (Exception e) {

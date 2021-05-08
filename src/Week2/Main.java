@@ -1,11 +1,19 @@
-package Week2.Homework1;
+package Week2;
 
 
 
-import Week2.Homework1.Managers.InstructorsManager;
-import Week2.Homework1.Managers.StudentManager;
-import Week2.Homework1.Models.Instructor;
-import Week2.Homework1.Models.Student;
+import Week2.Managers.InstructorsManager;
+import Week2.Managers.StudentManager;
+import Week2.Models.Instructor;
+import Week2.Models.Student;
+
+/*
+Kodlama.io projesini yazdığınızı düşünelim.
+
+User, Instructor, Student nesnelerini modelleyiniz. (Class-Inheritance)
+
+UserManager, InstructorManager, StudentManager için sistemde olabilecek operasyonları tahminleyip modelleyiniz. (Class-Inheritance-Method)
+ */
 
 public class Main {
     public static void main(String[] args) {

@@ -7,6 +7,11 @@ import Week3.Homework1.service.impl.StarbucksAbstractCustomerServiceImpl;
 
 
 import java.util.Date;
+/*
+  2 Farklı kahve zinciri için 2 farklı yöntemle müşteri kaydı yapılacak
+  1.zincir için kimlik doğrulaması olmadan kayıt yapılacak
+  2.zincir içinse MERNİS sistemi kullanılarak kimlik doğrulaması yapılacak
+ */
 
 public class Main {
     public static void main(String[] args) {
