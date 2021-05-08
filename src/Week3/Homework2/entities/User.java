@@ -8,7 +8,6 @@ public class User extends BaseEntity{
    private String password;
    private Date birthDate;
    private Long nationalityId;
-   private boolean isVerified;
 
    public User(int id, String name, String lastName, String email, String password, Date birthDate, Long nationalityId) {
       super(id, name);
@@ -59,11 +58,4 @@ public class User extends BaseEntity{
       this.nationalityId = nationalityId;
    }
 
-   public boolean isVerified() {
-      return isVerified;
-   }
-
-   public void setVerified(boolean verified) {
-      isVerified = verified;
-   }
 }
