@@ -15,6 +15,8 @@ public class Main {
         userRegisterService.register(user);
         userRegisterService = new UserRegisterServiceImpl(new GoogleRegister());
         userRegisterService.register(user1);
+    
+
 
 
     }
